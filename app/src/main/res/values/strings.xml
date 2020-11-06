@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ITES - Lista de empleados</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="menutitle_addTask">Agregar empleado</string>
+    <string name="menumain_refresh">Refresh</string>
+    <string name="no_task_message">No Task Selected</string>
+    <string name="edit_button_description">Button to edit task details</string>
+    <string name="delete_button_description">Button to delete task</string>
+    <string name="addedit_name_hint">Nombre de empleado: requerido</string>
+    <string name="addedit_description_hint">Apellido (optional)</string>
+    <string name="addedit_sort_hint">Orden: ordena de menor a mayor</string>
+    <string name="addedit_save_hint">Guardar</string>
+    <string name="title_activity_add_edit">AddEditActivity</string>
+    <string name="instructions_heading">Instrucciones</string>
+    <string name="instructions">Usar el boton (+) en toolbar para agregar un nuevo empleado.  Los empleados con menor orden de clasificacion van a ser acomodados arriba en la lista mientras que los que tienen el mismo orden de clasificacion van a ser ordenados alfabeticamente. Cada empleado tiene un boton de eliminar y editar en caso de que se quieran editar o eliminar algun empleado</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="deldiag_positive_caption">Eliminar</string>
+    <string name="deldiag_message">Esta seguro de que desea eliminar este empleado?</string>
+    <string name="cancelEditDiag_message">Tiene cambios sin guardar, quiere abandonar sus cambios o seguir editando?</string>
+    <string name="cancelEditDiag_positive_caption">Continuar editando</string>
+    <string name="cancelEditDiag_negative_caption">Abandonar cambios</string>
+
+    <string name="cancelMainDiag_message">Si sale de la pantalla principal tendra que volver a loguear, esta seguro de que desea salir?</string>
+    <string name="cancelMainDiag_positive_caption">Continuar editando</string>
+    <string name="cancelMainDiag_negative_caption">Salir</string>
+
+    <string name="title_activity_login">ITES - Login</string>
+    <string name="log_user">Usuario</string>
+    <string name="log_password">Password</string>
+    <string name="log_button">Login</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="su_user">Introduzca su usuario</string>
+    <string name="su_password">Introduzca su contraseña</string>
+    <string name="su_password2">Repita su contraseña</string>
+    <string name="su_signup">Sign up</string>
+    <string name="title_activity_details">Detalles de empleado:</string>
+    <!--    <string name="about_copyright">Copyright \u00a9 Programming.academy</string>-->
+</resources>
