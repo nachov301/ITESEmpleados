@@ -141,10 +141,10 @@ public class AddEditActivityFragment extends Fragment {
                             values.put(app.iggy.empleados.EmployeeContract.Columns.EMPLOYEES_DESCRIPTION, mDescriptionTextView.getText().toString());
                         }
                         if (!mMailTextView.getText().toString().equals(employee.getMail())){
-                            values.put(EmployeeContract.Columns.EMPLOYEES_MAIL, mDescriptionTextView.getText().toString());
+                            values.put(EmployeeContract.Columns.EMPLOYEES_MAIL, mMailTextView.getText().toString());
                         }
                         if (!mAddress.getText().toString().equals(employee.getAddress())){
-                            values.put(EmployeeContract.Columns.EMPLOYEES_ADDRESS, mDescriptionTextView.getText().toString());
+                            values.put(EmployeeContract.Columns.EMPLOYEES_ADDRESS, mAddress.getText().toString());
                         }
                         if (pn != (employee.getPhoneNumber())){
                             values.put(EmployeeContract.Columns.EMPLOYEES_PHONENUMBER, pn);
